@@ -53,6 +53,7 @@ In `~/.bashrc`, `~/.bash_profile`, or similar shell startup scripts, make the fo
 
    ```shell
    $ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+   $ export ANDROID_HOME=$ANDROID_SDK_ROOT
    ```
 
 1. Add the Android SDK command-line directories to `PATH`. Each directory corresponds to the category of <a href="https://developer.android.com/studio/command-line/" target="_blank">command-line tool</a>.
